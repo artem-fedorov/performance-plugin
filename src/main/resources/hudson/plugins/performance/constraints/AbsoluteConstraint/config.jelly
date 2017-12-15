@@ -59,7 +59,7 @@
         		</table>
         	</td>
         	<td style="vertical-align: middle">
-      					<f:number default="0" field="value" name="value"/>
+      			<f:number default="0" min="0" field="value" name="value"/>
         	</td>
         	<td style="vertical-align: middle">
         		<table>
