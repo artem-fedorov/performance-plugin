@@ -16,6 +16,7 @@ import hudson.util.FormValidation;
 import org.apache.commons.lang.StringUtils;
 import org.jenkinsci.Symbol;
 import org.kohsuke.stapler.DataBoundConstructor;
+import org.kohsuke.stapler.DataBoundSetter;
 import org.kohsuke.stapler.QueryParameter;
 
 /**
@@ -152,6 +153,7 @@ public class AbsoluteConstraint extends AbstractConstraint {
         return value;
     }
 
+    @DataBoundSetter
     public void setValue(long value) {
         this.value = value;
     }
